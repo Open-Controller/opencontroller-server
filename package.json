@@ -1,0 +1,21 @@
+{
+  "name": "opencontroller-server",
+  "version": "1.0.0",
+  "description": "A simple server for Open Controller houses",
+  "main": "dist/index.js",
+  "author": "PJTSearch",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "tsc ./src/index.ts --outDir ./dist --lib esnext,dom -d"
+  },
+  "dependencies": {
+    "koa": "^2.13.0"
+  },
+  "devDependencies": {
+    "opencontroller-lib":"../opencontroller-lib",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "opencontroller-lib":"~1.0"
+  }
+}
