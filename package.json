@@ -6,16 +6,17 @@
   "author": "PJTSearch",
   "license": "GPL-3.0-only",
   "scripts": {
-    "build": "tsc ./src/index.ts --outDir ./dist --lib esnext,dom -d"
+    "build": "tsc ./src/index.ts --outDir ./dist --lib esnext,dom -d --esModuleInterop"
   },
   "dependencies": {
+    "@types/koa": "^2.11.3",
     "koa": "^2.13.0"
   },
   "devDependencies": {
-    "opencontroller-lib":"../opencontroller-lib",
+    "opencontroller-lib": "../opencontroller-lib",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "opencontroller-lib":"~1.0"
+    "opencontroller-lib": "~1.0"
   }
 }
