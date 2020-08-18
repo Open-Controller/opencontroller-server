@@ -1,5 +1,5 @@
 import Koa from 'koa';
-import { House } from "opencontroller-lib"
+import { House } from "@open-controller/lib"
 
 export const createServer = (house:House,port:number=3612)=>{
   const app = new Koa();
