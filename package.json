@@ -1,5 +1,5 @@
 {
-  "name": "opencontroller-server",
+  "name": "@opencontroller/server",
   "version": "1.0.0",
   "description": "A simple server for Open Controller houses",
   "main": "dist/index.js",
