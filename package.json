@@ -1,12 +1,12 @@
 {
   "name": "@open-controller/server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple server for Open Controller houses",
   "main": "dist/index.js",
   "author": "PJTSearch",
   "license": "GPL-3.0-only",
   "scripts": {
-    "build": "tsc ./src/index.ts --outDir ./dist --lib esnext,dom -d --esModuleInterop"
+    "build": "tsc ./src/index.ts --outDir ./dist --lib esnext,dom -d --esModuleInterop --declaration"
   },
   "dependencies": {
     "@types/koa": "^2.11.3",
