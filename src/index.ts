@@ -9,4 +9,5 @@ export const createServer = (house:House,port:number=3612)=>{
   });
 
   app.listen(port);
+  console.info(`Open Controller server listening on port ${port}`)
 }
