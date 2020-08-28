@@ -13,10 +13,10 @@
     "koa": "^2.13.0"
   },
   "devDependencies": {
-    "@open-controller/lib": "^0.18.0",
+    "@open-controller/lib": "^0.22.0",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "@open-controller/lib": "^0.18.0"
+    "@open-controller/lib": "^0.22.0"
   }
 }
