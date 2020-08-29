@@ -1,6 +1,6 @@
 {
   "name": "@open-controller/server",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "A simple server for Open Controller houses",
   "main": "dist/index.js",
   "author": "PJTSearch",
