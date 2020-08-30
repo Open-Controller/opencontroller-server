@@ -1,6 +1,6 @@
 {
   "name": "@open-controller/server",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A simple server for Open Controller houses",
   "main": "dist/index.js",
   "author": "PJTSearch",
@@ -13,10 +13,10 @@
     "koa": "^2.13.0"
   },
   "devDependencies": {
-    "@open-controller/lib": "^0.25.0",
+    "@open-controller/lib": "^0.26.0",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "@open-controller/lib": "^0.25.0"
+    "@open-controller/lib": "^0.26.0"
   }
 }
